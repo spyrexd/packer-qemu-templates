@@ -2,7 +2,7 @@
     "variables": {
         "user": "vagrant",
         "password": "vagrant",
-        "disk_size": "200000"
+        "disk_size": "20000"
     },
 
     "builders":
@@ -15,8 +15,8 @@
             "accelerator": "kvm",
             "disk_size": "{{ user `disk_size`}}",
 
-            "iso_url": "rhel-server-7.6-beta-1-x86_64-dvd.iso",
-            "iso_checksum": "472e8c4338a525b18254fa792464b8194740768002eed9bbd00ddbc7d650c4f5",
+            "iso_url": "rhel-server-7.5-x86_64-dvd.iso",
+            "iso_checksum": "d0dd6ae5e001fb050dafefdfd871e7e648b147fb2d35f0e106e0b34a0163e8f5",
             "iso_checksum_type": "sha256",
 
             "http_directory": "http",
